@@ -25,7 +25,7 @@ Este é um bot para **grupos de WhatsApp** que permite **postar tweets** diretam
 
 2. **Instale as dependências:**
    ```bash
-   pnpm install
+   npm install
    ```
 
 3. **Configure as variáveis de ambiente criando um arquivo `.env` na raiz do projeto:**
@@ -43,7 +43,7 @@ Este é um bot para **grupos de WhatsApp** que permite **postar tweets** diretam
    PUPPETEER_EXECUTABLE_PATH="C:\Program Files\Google\Chrome\Application\chrome.exe"
 
    # Se estiver usando Windows, instale sem baixar o Chromium:
-   # PUPPETEER_SKIP_DOWNLOAD=true pnpm install
+   # PUPPETEER_SKIP_DOWNLOAD=true npm install
 
    # Credenciais da API do X (Twitter)
    APP_KEY=""
@@ -61,7 +61,7 @@ Este é um bot para **grupos de WhatsApp** que permite **postar tweets** diretam
 
 4. **Execute o bot:**
    ```bash
-   pnpm start
+   npm start
    ```
 
    Será exibido um QR Code no terminal para autenticação no WhatsApp Web.
