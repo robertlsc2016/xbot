@@ -1,0 +1,6 @@
+node_modules
+auth
+dist
+.env
+.wwebjs_cache
+.vscode

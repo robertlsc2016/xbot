@@ -1,0 +1,14 @@
+services:
+  xbot:
+    init: true
+    # command: sh -c "if [ \"$AMBIENT\" = 'production' ]; then npm run start:prod; else npm start; fi"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: xbot
+    volumes:
+      - ./auth:/app/auth
+    restart: always
+    ports:
+    env_file:
+      - .env
