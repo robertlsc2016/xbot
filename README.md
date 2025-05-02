@@ -19,8 +19,8 @@ Este é um bot para **grupos de WhatsApp** que permite **postar tweets** diretam
 
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/seu-usuario/seu-repo.git
-   cd seu-repo
+   git [clone https://github.com/seu-usuario/seu-repo.git](https://github.com/robertlsc2016/xbot.git)
+   cd xbot
    ```
 
 2. **Instale as dependências:**
